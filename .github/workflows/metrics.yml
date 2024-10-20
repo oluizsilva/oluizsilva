@@ -19,7 +19,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.svg  # Nome do arquivo de saída
-          token: ${{ secrets.METRICS_TOKEN }}  # Token que você adicionou
+          token: ${{ secrets.PersonalToken }}  # Usando o nome correto do seu secret
           base: ""  # Pode ser deixado em branco
           plugin_isocalendar: yes  # Habilita o plugin do calendário
           plugin_isocalendar_duration: full-year  # Pode ser 'half-year' se preferir
