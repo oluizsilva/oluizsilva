@@ -17,7 +17,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # Certifique-se de usar o nome correto
-          USERNAME: ${{ oluizsilva }}  # Seu nome de usuário do GitHub
+          USERNAME: ${{ github.repository_owner }}  # Seu nome de usuário do GitHub
       - name: Commit & Push
         run: |
           git config user.name github-actions
