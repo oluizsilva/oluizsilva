@@ -1,20 +1,14 @@
-name: GitHub-Profile-3D-Contrib
-
-on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
-  workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          # Aqui você deve substituir o GITHUB_TOKEN pelo nome do secret que criou
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }} # Use o nome correto do secret
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
