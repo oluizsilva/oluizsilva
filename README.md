@@ -49,6 +49,15 @@
 
 ###
 
+### Contributions
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" height="600" width="800" alt="Calendário de Contribuições" />
+</div>
+
+
+###
+
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app?username=oluizsilva&theme=onestar&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=4" height="150" alt="trophy graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=oluizsilva&radius=16&theme=gotham&area=true&order=5" height="300" alt="activity-graph graph"  />
@@ -56,6 +65,7 @@
 
 ###
 
-<h2 align="left">Namárië!</h2>
+<h2 align="left">Namárië! ar nai elenillor. <p align="left">Farewell, and may the light always shine upon you</p> </h2> 
+
 
 ###
