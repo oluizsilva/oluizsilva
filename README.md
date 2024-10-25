@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" height="600" width="800" alt="Calendário de Contribuições" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" height="600" width="800" alt="Calendário de Contribuições" />
 </div>
 
 <h3 align="left">About me 📝</h3>
